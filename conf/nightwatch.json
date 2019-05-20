@@ -30,9 +30,9 @@
   },
   "test_settings": {
     "default": {
-      "launch_url": "http://dev.walmart.com",
+      "launch_url": "http://dev.samsclub.com",
       "selenium_port": 4444,
-      "selenium_host": "localhost",
+      "selenium_host": "dev.samsclub.com",
       "silent": true,
       "sync_test_names": true,
       "screenshots": {
