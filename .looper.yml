@@ -1,0 +1,11 @@
+inherit: job://dxt_dockerize-looper-integration
+ 
+envs:
+  env_pr:
+    variables:
+      testPlanId: 4057
+ 
+flows:
+  pr:
+    - node(label = linux, isolation = except_project):
+      - call: testarmada_func(env_pr)
